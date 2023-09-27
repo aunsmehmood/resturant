@@ -61,9 +61,9 @@
     .headerContainer{
         margin-left: 0;
         border-radius: 10px;
-        width: 80%;
+        width: 90%;
         display: flex;
-        justify-content: center; 
+        justify-content: center;
         align-items: center;
         flex-direction: column;
         background-color: #121619;
@@ -71,8 +71,9 @@
     }
     .home .headerContainer h1{
         font-size: 40px;
+        margin-top: 20px;
         height: 30px;
-        margin: 15px 0px;
+        margin: 30px 0px;
         color: white;
     }
     .home .headerContainer p{
