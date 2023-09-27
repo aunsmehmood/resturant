@@ -5,7 +5,20 @@ import { Box, Typography } from "@mui/material";
 const About = () => {
   return (
     <Layout>
-      <Box>
+      <Box
+        sx={{
+          my: 15,
+          textAlign: "center",
+          "& h4": {
+            fontWeight: "bold",
+            my: 2,
+            fontSize: "2rem",
+          },
+          "& p": {
+            textAlign: "center",
+          },
+        }}
+      >
         <Typography variant="h4">Welcome To My Restaurant</Typography>
         <p>
           Welcome to our restaurant application, where culinary excellence meets
@@ -19,6 +32,19 @@ const About = () => {
           dishes, all while enjoying the convenience of a modern dining
           companion. Join us as we redefine how you savor the moments and savor
           the flavors at My Restaurant.
+        </p>
+        <p>
+          At My Restaurant, we're not just about food; we're about
+          creating unforgettable memories. Our restaurant application is
+          designed to elevate your dining experience from start to finish.
+          Discover exclusive promotions, receive personalized recommendations
+          based on your preferences, and stay up-to-date with our latest events
+          and offerings. Whether you're dining in or ordering takeout, our
+          commitment to excellence in service and cuisine ensures that every
+          visit is a celebration of taste, quality, and hospitality. Join us on
+          this culinary journey, where your satisfaction is our utmost priority,
+          and let us be your trusted partner in crafting exceptional dining
+          moments.
         </p>
       </Box>
     </Layout>
